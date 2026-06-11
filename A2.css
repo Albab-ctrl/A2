@@ -246,6 +246,8 @@ section{
        margin-top: 13px;
 }
 
+/* PROJECT 2 */
+
 .FULL2{
     height: 100%;
     width: 100%;
@@ -400,8 +402,6 @@ section{
      margin-left: 40px;
     
 }
-
-
 .secdiv1h2{
     color: #E2E3E7;
    transform: scaleY(1.3); 
@@ -440,7 +440,6 @@ section{
      font-size: 15px;
      font-weight: 500;
 }
-
 .full2footer1{
     height: 5%;
       margin-left: 3%;
@@ -489,7 +488,6 @@ section{
 .f1content{
     font-size: 10px;
 }
-
 .foot2child{
        display: flex;
        font-size: 8px;
@@ -578,4 +576,206 @@ font-size: 10px;
 }
 #isd2h2{
     margin-top: 3px;
+}
+
+/* PROJECT 3 */
+
+
+.FULL3{
+    height: 100%;
+    width: 100%;
+    background-color: #0E0E0E;
+}
+.container3{
+    height: 100%;
+    width: 80%;
+    background-color: chocolate;
+      margin-left: 10.7%;
+      display: flex;
+      position: relative;
+}
+.leftdiv{
+      padding: 25px;
+    height: 100%;
+    width: 50%;
+    background-color:#FEFEFE;
+}
+
+header.lefthead{
+   margin-left: 25px;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+background-color:transparent;
+}
+.leftcentre h1{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 56px;
+    transform: rotate(270deg);
+    margin-left: 90px;
+}
+.leftcentre{
+    /* background-color: #738EA7; */
+       margin-left: 25px;
+    width: 45%;
+    height: 60%; 
+    display: flex;
+}
+.leftcentre ul{
+     margin-left: -240px;
+     margin-top: 20px;
+}
+.ulline{
+    width: 120px;
+    height: 1px;
+    background-color:#F2F2F2;
+}
+li::marker{
+    color: #B43C38;
+    border: 0.2px solid #B9514E;
+}
+.ri-search-line{
+    position: absolute;
+    color: #8C8C8C;
+    top: 7.7px;
+    left: 8px;
+}
+.part2 input{
+    padding: 9px 7px 9px 20px;
+    border-radius: 20px;
+    background-color: #F0F0F0;
+    border: none;
+}
+.part2{
+    position: relative;
+}
+.part1{
+    font-weight: 700;
+    font-size: 15px;
+}
+header.righthead{
+   margin-left: 25px;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+background-color:transparent;
+
+}
+.righthead p{
+    color: #EBC9C2;
+    padding: 25px;
+padding-top: 55px;
+font-size: 17px;
+padding-left: 55px;
+word-spacing: 40px;
+  
+}
+.rightcentre{
+    height: 70%;
+    width: 35%;
+    background-color:transparent;
+   margin-bottom: 35px;
+   margin-left: 150px;
+}
+.rightdiv{
+    height: 100%;
+    width: 50%;
+    background-color:#B83A30;
+display:flex ;
+flex-direction: column;
+align-items: center;
+justify-content:space-between ;
+}
+.rightcentre .rch1{
+    padding: 10px;
+    font-weight: 300;
+    font-size: 45px;
+    color: #FEF6F5;
+      transform: scaleY(1.3);
+}
+.container3 img{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.childrcentre img{
+    margin-left: 65%;
+    margin-top: 24%;
+}
+.childrcentre p{
+    color: white;
+    z-index: 2;
+    margin-left: 20px;
+    margin-top: 126px;
+    display: inline-block;
+}
+.ruline{
+    width: 0.5px;
+    height: 110px;
+    background-color: white;
+    margin-left: 81px;
+    margin-top: -107px;
+}
+.ccrcentre2{
+    display: flex;
+    position: relative;
+}
+ .ri-map-pin-2-fill{
+    color: #D5CFB6;
+    font-size: 20px;
+ position: relative;
+    top: 10px;
+}
+.ri-men-line{
+        color: #D5CFB6;
+    font-size: 20px;
+ position: relative;
+    top: 10px;
+}
+.ri-ruler-line{
+            color: #D5CFB6;
+    font-size: 20px;
+ position: relative;
+    top: 10px;
+}
+.tui{
+    margin-left: 20px;
+}
+.phela{
+    position: absolute;
+    top: -260px;
+    left: 70px;
+}
+.dusra{
+    position: absolute;
+    top: -205px;
+    left: 70px;
+}
+.teesra{
+    position: absolute;
+    top: -150px;
+    left: 70px;
+}
+.kch{
+    margin-top: 50px;
+    color: #F6D5A1;
+    margin-left: 13px;
+}
+.rdp{
+    color: white;
+    margin-top: 20px;
+    margin-left: 13px;
+}
+.endb{
+     margin-top: 20px;
+    margin-left: 13px;
+    border: none;
+    border-radius: 8px;
+     background-color: #DABC92;
+    padding: 10px 28px 10px 28px;
 }
